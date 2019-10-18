@@ -17,24 +17,25 @@
             </intent-filter>
         </activity>
 
-        <!--静态注册广播接收器-->
-        <receiver android:name=".BroadcastReceiverTest">
 
-            <!--接受那些广播-->
-            <intent-filter>
-                <!--开机广播-->
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
-                <!--电量低广播-->
-                <action android:name="android.intent.action.BATTERY_LOW"/>
-                <!--应用被安装-->
-                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
-                <!--应用被卸载-->
-                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
-                <data android:scheme="package"/>
+<!--        &lt;!&ndash;静态注册广播接收器&ndash;&gt;-->
+<!--        <receiver android:name=".BroadcastReceiverTest">-->
 
-            </intent-filter>
+<!--            &lt;!&ndash;接受那些广播&ndash;&gt;-->
+<!--            <intent-filter>-->
+<!--                &lt;!&ndash;开机广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>-->
+<!--                &lt;!&ndash;电量低广播&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.BATTERY_LOW"/>-->
+<!--                &lt;!&ndash;应用被安装&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.PACKAGE_INSTALL"/>-->
+<!--                &lt;!&ndash;应用被卸载&ndash;&gt;-->
+<!--                <action android:name="android.intent.action.PACKAGE_REMOVED"/>-->
+<!--                <data android:scheme="package"/>-->
 
-        </receiver>
+<!--            </intent-filter>-->
+
+<!--        </receiver>-->
 
 
     </application>
